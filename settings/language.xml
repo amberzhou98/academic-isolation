@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Agree</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">Disagree</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">本研究旨在探讨外语学科研究生的学术孤独。
+为方便操作，建议您使用宽屏设备（如电脑、平板）进行操作。谢谢您的支持！</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introduction</item>
+        <item id="introText">您在研究生就读期间是否体会到孤独感？哪些因素导致了此类体验？请根据同意程度对以下陈述排序。</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">请仔细阅读以下陈述，并将它们分为三类：一类是您倾向于不同意的陈述，一类是您倾向于同意的陈述，另一类是您持中立态度的陈述。
+您可以将卡片拖入相应的分类中，或者按键盘上的 1, 2, 3 键进行分类。您也可以对分类进行修改。
+如果您想再次查看此指示，请点击左下角的帮助按钮。</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">请按照以下步骤进行操作：
+取出“同意”卡片，并将其排列在评分表的右侧。
+取出“不同意”卡片，并将其排列在评分表的左侧。依次对所有“同意”和“不同意”卡片进行操作。
+最后，将“中立”卡片排列在评分表剩余的空格中。</item>
+        <item id="step2CondOfInstruc">Give condition of instruction here</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">您已将所有卡片放置在评分表上。请再次检查您的分布，如果需要，可以交换卡片的位置。</item>
+        <item id="step3CondOfInstruc">Give condition of instruction here</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">请对您放置在“最同意”（＋4及以上）或“最不同意”（-4及以上）的陈述进行解释，即您做此选择的缘由。</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">最后，请对您的背景信息进行作答。</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for your participation! {br}{br}You can now close your browser window.</item>   
+   </language>
